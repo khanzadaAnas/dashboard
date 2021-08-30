@@ -1,0 +1,345 @@
+h1{
+    font-size: 25px;
+}
+
+ .container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid #d6dbe2;
+    border-radius: 7px;
+    box-shadow: 0px 0px 30px 0px #d6dbe2
+}
+
+.overview-card {
+    display: flex;
+    height: 219px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #f5f7fb;
+       
+}
+
+.overview-card .circle {
+    color: #4d84fe;
+    height: 160px;
+    width: 160px;
+    background-color: #eef3f7;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.overview-small-card {
+    display: flex;
+    height: 117px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.overview-small-card .circle {
+    color: #4d84fe;
+    height: 80px;
+    width: 80px;
+    background-color: #eef3f7;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.border-right-1px {
+    border-right: 2px solid #f5f7fb;
+}
+
+.card-text h6 {
+    margin-top: 10px !important;
+}
+
+.assessment-card {
+    display: flex;
+    flex-direction: column;
+    height: 337px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.assessment-card img {
+    position: absolute;
+}
+
+.assessment-card h3 {
+    font-size: 35px;
+    margin-bottom: -5px;
+}
+.assessment-card h6 {
+    font-size: 16px;
+    color: #8b93a7;
+    font-weight: 400;
+}
+
+.assessment-section .days {
+    font-size: 16px;
+    font-weight: 300 !important;
+    position: absolute;
+    bottom: 10px;
+}
+
+.asses{
+    margin-top: 26px;
+    font-size: 30px;
+}
+
+.btn-detail {
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+    height: 40px;
+    background-color: white;
+    border-color: #dde3ea;
+}
+
+.btn-detail img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.tabb{
+    background-color: #b4c1cefa;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 10px solid #f8f9fa;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.table td, .table th {
+    vertical-align: top;
+    border-top: 10px solid #f8f9fa
+}
+
+@media only screen and (max-width: 1200px) {
+    .btn-detail {
+        font-size: 10px;
+    }
+
+    .btn-detail img {
+        width: 15px;
+        margin-right: 5px;
+    }
+}
+
+@media only screen and  (max-width: 991px) {
+    h1{
+        font-size: 20px;
+    }
+
+    .overview-card {
+        height: 160px;
+    }
+
+    .overview-small-card {
+       height: 100px;
+    }
+
+    .overview-small-card .circle{
+        height: 35px;
+        width: 35px;
+        font-size: 22px;
+        margin-right: 11px;
+
+    }
+
+    .overview-card .circle {
+        height: 100px;
+        width: 100px;
+        margin-right: 15px;
+        font-size: 60px;
+    }
+
+    .overview-card .card-text img {
+        width: 25px;
+    }
+
+    .card-text h6{
+        font-size: 12px;
+    }
+
+    .assessment-card {
+        height: 260px;
+    }
+
+    .assessment-card img {
+        padding: 15px;
+    }
+
+    .assessment-card h3 {
+        font-size: 30px;
+    }
+    .assessment-card h6 {
+        font-size: 12px;
+    }
+
+    .btn-detail img {
+        width: 10px;
+        margin-right: 3px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    h1{
+        font-size: 13px;
+    }
+
+    .overview-card {
+        height: 90px;
+    }
+
+    .overview-small-card {
+        height: 50px;
+    }
+
+
+    .overview-small-card .circle {
+
+        height: 30px;
+        width: 34px;
+        font-size: 20px;
+    }
+
+    .overview-card .circle {
+        height: 61px;
+        width: 65px;
+        margin-right: 8px;
+        font-size: 40px;
+    }
+
+    .overview-card .card-text img {
+        width: 15px;
+    }
+
+    .card-text h6{
+        font-size: 8px;
+    }
+
+    .assessment-card {
+        height: 140px;
+    }
+
+    .assessment-card img {
+        padding: 26px;
+    }
+
+    .assessment-card h3 {
+        font-size: 21px;
+    }
+    .assessment-card h6 {
+        font-size: 8px;
+    }
+    .assessment-section .days {
+        font-size: 8px;
+        bottom: 0;
+    }
+
+    .btn-detail {
+        font-size: 8px;
+        height: 30px;
+    }
+
+    .btn-detail img {
+        width: 5px;
+        margin-right: 2px;
+    }
+    .table tr {
+        font-size: 12px;
+    }
+    .table tr td img {
+        width: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .overview-section h1 {
+        font-size: 8px;
+    }
+    .overview-card .card-text img {
+        width: 12px;
+   }
+    .overview-card .circle {
+        height: 34px;
+        width: 34px;
+        font-size: 23px;
+    }
+    .overview-small-card .circle {
+        height: 23px;
+        width: 22px;
+        font-size: 10px;
+        margin-right: 9px;
+    }
+    .card-text h6 {
+        font-size: 6px;}
+
+
+    .overview-card {
+        height: 60px;
+    }
+    .overview-small-card {
+        height: 37px;}
+    h1 {
+        font-size: 9px;}
+    .assessment-card {
+        height: 97px;}
+
+    .assessment-section .days {
+        font-size: 7px;
+        font-weight: 300 !important;
+        position: absolute;
+        bottom: -6px;
+    }
+
+
+    .assessment-card img {
+        padding: 12px;
+        max-width: 95px;
+    }
+    .assessment-card h3 {
+        font-size: 12px;
+    }
+    .assessment-card h6 {
+        font-size: 5px;
+        margin-top: 2px;
+    }
+    .btn-detail img {
+        width: 9px;
+        margin-right: 2px;
+    }
+    .table tr {
+        font-size: 8px;
+    }
+    .table tr td {
+        padding: 8px;
+    }
+    .table tr td img {
+        width: 15px;
+    }
+}
+
+
+

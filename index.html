@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <title>DASH</title>
+    <link rel="stylesheet" href="practice.css">
+</head>
+<body class="bg-light">
+
+<div class="container mt-4 mb-5">
+    <div class="overview-section">
+        <div class="row">
+            <div class="col-8">
+                <h1>Overview</h1>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-6 bg-white overview-card">
+                            <div class="circle font-weight-bold">15</div>
+                            <div class="card-text">
+                                <img src="./assets/exam-copy.png">
+                                <h6>Total Exams</h6>
+                            </div>
+                        </div>
+                        <div class="col-6 bg-white overview-card">
+                            <div class="circle font-weight-bold text-success">01</div>
+                            <div class="card-text">
+                                <img src="./assets/mark-copy.png">
+                                <h6>Fully Marked</h6>
+                            </div>
+                        </div>
+                        <div class="col-6 bg-white overview-small-card border-right-1px">
+                            <div class="circle font-weight-bold text-success">10</div>
+                            <div class="card-text">
+                                <h6>Scanned</h6>
+                            </div>
+                        </div>
+                        <div class="col-6 bg-white overview-small-card">
+                            <div class="circle font-weight-bold text-danger">05</div>
+                            <div class="card-text">
+                                <h6>Not Scanned</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="assessment-section">
+                    <h1>Assessment Progress</h1>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 bg-white assessment-card">
+                                <img src="./assets/progress.png" class="img-fluid"  alt=""/>
+                                <h3 class="text-center font-weight-bold" >75%</h3>
+                                <h6>Completed </h6>
+                                <h5 class="days"> 3 days To Finish </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="assessment-detail mt-4">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-center">
+                <h1 class="mb-lg-0 mb-md-2 mb-sm-2 mb-2 ">
+                    Assessment Details
+                </h1>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-3 btn-column">
+                <div class="btn-group w-100" role="group" aria-label="Basic outlined example">
+                    <button type="button" class="btn btn-outline-primary btn-detail shadow-lg"><img src="./assets/Forma.png"> Update Statistics</button>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-3 btn-column">
+                <div class="btn-group w-100" role="group" aria-label="Basic outlined example">
+                    <button type="button" class="btn btn-outline-primary btn-detail shadow-lg"><img src="./assets/push.png"> Push Grades</button>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-3 btn-column">
+                <div class="btn-group w-100" role="group" aria-label="Basic outlined example">
+                    <button type="button" class="btn btn-outline-primary btn-detail shadow-lg"><img src="./assets/rexam.png"> Return Exams</button>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-3 btn-column">
+                <div class="btn-group w-100" role="group" aria-label="Basic outlined example">
+                    <button type="button" class="btn btn-outline-primary btn-detail shadow-lg"><img src="./assets/lock.png"> Lock Assessment</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <table class="table mt-4">
+        <thead>
+        <tr  class="tabb rounded border border-#dee9f1 ">
+            <th scope ="col">Question</th>
+            <th scope="col">Marked</th>
+            <th scope="col">Unmarked</th>
+            <th scope="col">Mean Mark</th>
+            <th scope="col">Speed</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr class="rounded bg-white border border-#dee9f1 shadow-lg">
+            <td >Question 01</td>
+            <td >8</td>
+            <td >10</td>
+            <td >12.5</td>
+            <td >2QPH<span class="ml-4"></span> <img src="./assets/ques.png"</td>
+        </tr>
+        <tr class="rounded bg-white border border-dee9f1 shadow-lg">
+            <td  >Question 02</td>
+            <td >10</td>
+            <td >05</td>
+            <td >05</td>
+            <td >3QPH<span class="ml-4"></span> <img src="./assets/ques.png"></td>
+        </tr>
+        <tr class="rounded bg-white border border-dee9f1 shadow-lg" >
+            <td>Question 03</td>
+            <td>15</td>
+            <td>8</td>
+            <td>10</td>
+            <td>1QPH<span class="ml-4"></span> <img src="./assets/ques.png"></td>
+        </tr>
+        <tr class="rounded bg-white border border-#dee9f1 shadow-lg">
+            <td>Question 04</td>
+            <td>20</td>
+            <td>15</td>
+            <td>9</td>
+            <td>3QPH <span class="ml-4"></span> <img src="./assets/ques.png"></td>
+        </tr>
+        <tr class="rounded bg-white border border-#dee9f1 shadow-lg">
+            <td>Question 01</td>
+            <td>25</td>
+            <td>14</td>
+            <td>12</td>
+            <td>2QPH <span class="ml-4"></span> <img src="./assets/ques.png"></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
